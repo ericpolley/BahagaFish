@@ -20,7 +20,7 @@ export default function Apaperplanes() {
 
 {/* TEXT SECTION 1 */}
 
-<p className='w-[80%] text-center border-t-4 border-blue-200 mb-5'>
+<p className='w-full lg:w-[80%] text-center border-t-4 border-blue-200 mb-5'>
   <br />
 As the world becomes increasingly reliant on technology, it's easy to forget the simple pleasures of childhood. But one trend that seems to be making a comeback is the humble paper airplane. And believe it or not, artificial intelligence (AI) is playing a role in this resurgence.
 <br />
