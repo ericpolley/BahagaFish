@@ -1,11 +1,16 @@
 import React from 'react'
+import { Helmet } from 'react-helmet';
 import { useNavigate } from 'react-router'
 
 export default function Apaperplanes() {
  
   const navigate = useNavigate();
   return (
-    <><head> <meta name="description" content=" Paper Air Planes are Replacing Email?!?! News Story - click to read more " /></head>
+    <>
+    <Helmet>
+                <title>newsforPIGS</title>
+                <meta name='description' content='News: Paper air planes are replacing Email?!?! - Read more about it here' />
+            </Helmet>
     <div className='flex items-center justify-center m-2 mb-12'>
       
     <div className='w-[99%] lg:w-[80%] shadow-xl border-4 p-5 m-4 mb-20 border-t-8 border-blue-200 rounded-lg bg-blue-100'>
