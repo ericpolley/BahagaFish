@@ -5,7 +5,7 @@ export default function CardApaperplanes() {
  const navigate = useNavigate();
   return (
 <>
-<meta name="description" content=" Paper Air Planes are Replacing Email?!?! News Story - click to read more " />
+
 
 <div className='m-1 flex flex-col border-2 rounded-xl border-blue-300 bg-sky-200 
 items-center p-3 w-full md:w-[45%] lg:w-[30%] cursor-pointer'
