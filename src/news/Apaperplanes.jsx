@@ -5,9 +5,9 @@ export default function Apaperplanes() {
  
   const navigate = useNavigate();
   return (
-    
+    <><head> <meta name="description" content=" Paper Air Planes are Replacing Email?!?! News Story - click to read more " /></head>
     <div className='flex items-center justify-center m-2 mb-12'>
-       <meta name="description" content=" Paper Air Planes are Replacing Email?!?! News Story - click to read more " />
+      
     <div className='w-[99%] lg:w-[80%] shadow-xl border-4 p-5 m-4 mb-20 border-t-8 border-blue-200 rounded-lg bg-blue-100'>
       <h1 className='text-xl text-center m-4 text-gray-400'>News Article</h1>
       <div className='flex flex-col w-full items-center justify-center'>
@@ -85,5 +85,6 @@ Eric Polley - <a href="https://ericpolley.com" className='cursor-pointer text-bl
       </div>
     </div>
     </div>
+    </>
   )
 }
