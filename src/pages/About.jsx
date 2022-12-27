@@ -1,7 +1,14 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 export default function About() {
   return (
+
+    <>
+    <Helmet>
+                <title>NEWSFORPIGS: About</title>
+                <meta name='description' content='News: Fake news for Real people! News for Pigs. This is who we are!' />
+            </Helmet>
     <div className='flex items-center justify-center m-2 mb-12'>
     <div className='w-[99%] lg:w-[80%] shadow-xl border-4 p-5 m-4 mb-20 border-t-8 border-blue-200 rounded-lg bg-blue-100'>
       <h1 className='text-xl text-center m-4'>About</h1>
@@ -27,5 +34,6 @@ So if you're in need of a break from the daily grind, or just want to laugh at t
       </div>
     </div>
     </div>
+    </>
   )
 }

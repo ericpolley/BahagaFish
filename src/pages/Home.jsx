@@ -1,7 +1,14 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 export default function Home() {
   return (
+
+    <>
+    <Helmet>
+                <title>NEWSFORPIGS</title>
+                <meta name='description' content='News: Fake news for Real people! News for Pigs.' />
+            </Helmet>
     <div className='flex items-center justify-center m-2 mb-12'>
     <div className='w-[99%] lg:w-[80%] bg-blue-100 shadow-xl border-4 p-5 m-4 mb-20 border-t-8 border-blue-200 rounded-lg flex flex-col justify-center items-center'>
       <h1 className='w-full text-xl text-center mt-4 pb-2 border-b-8 border-blue-200'> Welcome </h1>
@@ -31,5 +38,6 @@ Thanks for visiting, and don't forget to check back often for the latest and gre
     </div>
     </div>
     </div>
+    </>
   )
 }

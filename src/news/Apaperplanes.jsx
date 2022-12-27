@@ -8,7 +8,7 @@ export default function Apaperplanes() {
   return (
     <>
     <Helmet>
-                <title>newsforPIGS</title>
+                <title>NEWSFORPIGS: Story</title>
                 <meta name='description' content='News: Paper air planes are replacing Email?!?! - Read more about it here' />
             </Helmet>
     <div className='flex items-center justify-center m-2 mb-12'>
