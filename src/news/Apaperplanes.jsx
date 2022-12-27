@@ -5,7 +5,7 @@ export default function Apaperplanes() {
   const navigate = useNavigate();
   return (
     <div className='flex items-center justify-center m-2 mb-12'>
-    <div className='w-[75%] shadow-xl border-4 p-5 m-4 mb-20 border-t-8 border-blue-200 rounded-lg bg-blue-100'>
+    <div className='w-[99%] lg:w-[80%] shadow-xl border-4 p-5 m-4 mb-20 border-t-8 border-blue-200 rounded-lg bg-blue-100'>
       <h1 className='text-xl text-center m-4 text-gray-400'>News Article</h1>
       <div className='flex flex-col w-full items-center justify-center'>
 
@@ -32,7 +32,8 @@ In the age of emails and instant messaging, it's easy to get caught up in the co
 
 <p className='text-blue-100 text-xs'>I found this at: ericpolley.com</p>
 {/* Image in the middle */}
-  <img src="https://cdn.pixabay.com/photo/2020/03/09/18/10/aeroplane-4916661_960_720.jpg" className='w-[80vw] h-60 border-4 rounded-xl border-blue-300 object-cover' alt="planes" />
+  <img src="https://cdn.pixabay.com/photo/2020/03/09/18/10/aeroplane-4916661_960_720.jpg" className='
+  w-[80vw] h-60 border-4 rounded-xl border-blue-300 object-cover' alt="planes" />
  
   <p className='w-[80%] m-5 mt-10 mb-5'>
 
@@ -51,7 +52,8 @@ While this may seem like a novelty at first, it's easy to see how this technolog
 <p className='text-blue-100 text-xs'>I found this at: ericpolley.com</p>
 {/* ADVERTISEMENT */}
 <a href="http://ericpolley.com" title='Advertisement'>
-<img src="https://cdn.pixabay.com/photo/2015/11/27/20/49/cards-1066386_960_720.jpg" alt="ad" className='w-[80vw] h-60 object-cover object-bottom border-4 rounded-xl border-blue-300 cursor-pointer hover:border-blue-400' />
+<img src="https://cdn.pixabay.com/photo/2015/11/27/20/49/cards-1066386_960_720.jpg" alt="ad" className='
+w-[80vw] h-60 object-cover object-bottom border-4 rounded-xl border-blue-300 cursor-pointer hover:border-blue-400' />
 <p className=' text-xs text-slate-400 text-center m-0 p-0 mb-4'>[Advertisement]</p>
 </a>
 

@@ -3,9 +3,9 @@ import React from 'react'
 export default function Home() {
   return (
     <div className='flex items-center justify-center m-2 mb-12'>
-    <div className='w-[75%] bg-blue-100 shadow-xl border-4 p-5 m-4 mb-20 border-t-8 border-blue-200 rounded-lg flex flex-col justify-center items-center'>
+    <div className='w-[99%] lg:w-[80%] bg-blue-100 shadow-xl border-4 p-5 m-4 mb-20 border-t-8 border-blue-200 rounded-lg flex flex-col justify-center items-center'>
       <h1 className='w-full text-xl text-center mt-4 pb-2 border-b-8 border-blue-200'> Welcome </h1>
-      <div className='flex flex-row flex-wrap'>
+      <div className='flex flex-row flex-wrap items-center justify-center'>
      <div className='w-full lg:w-[45%] text-lg text-center flex justify-center items-center mb-4 mt-4'>
            <p className='bg-sky-200 p-8 border-4 border-blue-200 rounded-xl text-sm'>News for Pigs! <br />
       

@@ -17,7 +17,7 @@ export default function SignIn() {
   const navigate = useNavigate();
   return (
     <div className='flex items-center justify-center m-2 mb-12'>
-    <div className='w-full lg:w-[75%] shadow-xl border-4 p-5 m-4 mb-20 border-t-8 border-blue-200 rounded-lg'>
+    <div className='w-[99%] lg:w-[80%]shadow-xl border-4 p-5 m-4 mb-20 border-t-8 border-blue-200 rounded-lg'>
       <h1 className='text-xl text-center m-4'>Sign In</h1>
       <div className='flex flex-col items-center justify-center'>
         <div className='flex flex-col items-center'>
