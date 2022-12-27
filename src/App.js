@@ -10,6 +10,7 @@ import SignUp from './pages/SignUp';
 import Header from './components/Header';
 import Apaperplanes from './news/Apaperplanes';
 import Footer from './components/Footer';
+import Aicecreamonacoldday from './news/Aicreamonacoldday';
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
         <Route path="/profile" element={<Profile />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/signin" element={<SignIn />} />
-        <Route path="/Apaperplanes" element={<Apaperplanes />} />
+        <Route path="/paperplanes" element={<Apaperplanes />} />
+        <Route path="/icecreamonacoldday" element={<Aicecreamonacoldday />} />
       </Routes>
       <Footer />
       </HashRouter>

@@ -1,6 +1,7 @@
 import React from 'react'
 import CardApaperplanes from '../newsCards/CardApaperplanes'
 import { Helmet } from 'react-helmet'
+import CardAicecreamonacoldday from '../newsCards/CardAicecreamonacoldday'
 
 export default function News() {
   return (
@@ -17,6 +18,7 @@ export default function News() {
 
 
       <CardApaperplanes />
+      <CardAicecreamonacoldday />
 
 
       </div>
