@@ -11,11 +11,11 @@ export default function Header() {
     }
   return (
 
-    <div className='flex justify-center items-center shadow-xl border-2 border-gray-300 bg-blue-100'>
+    <div className='flex justify-center items-center shadow-xl border-2 bg-opacity-50 border-gray-300 bg-blue-100 fixed w-full h-auto m-0 p-0'>
             <div className='w-[90%] md:w-[77%] flex justify-between items-center'>
         
         <div className='flex md:flex-row flex-col justify-center items-center w-full'> 
-        <img src="https://cdn.pixabay.com/photo/2021/01/09/22/55/pig-5903673_960_720.png" onClick={()=>navigate('/')} alt="pig" className='cursor-pointer h-16 p-1 bg-blue-100 md:m-3 border-blue-200 border-4 rounded-full' />
+        <img src="https://cdn.pixabay.com/photo/2021/01/09/22/55/pig-5903673_960_720.png" onClick={()=>navigate('/')} alt="pig" className='cursor-pointer h-16 p-1 bg-blue-100 md:m-1 border-blue-200 border-4 rounded-full' />
         <p onClick={()=>navigate('/')} className='w-full hidden md:block font-semibold text-lg lg:text-xl lg:ml-12 md:ml-4 text-blue-500 cursor-pointer hover:text-blue-400 active:text-blue-300'>News for Pigs</p>
          </div>
         <div className='flex justify-between w-full sm:w-[90%] md:w-[70%] lg:w-[50%] ml-6 lg:ml-12'> 

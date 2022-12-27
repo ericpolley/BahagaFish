@@ -11,7 +11,8 @@ export default function Apaperplanes() {
                 <title>NEWSFORPIGS: Story</title>
                 <meta name='description' content='News: Paper air planes are replacing Email?!?! - Read more about it here' />
             </Helmet>
-    <div className='flex items-center justify-center m-2 mb-12'>
+            <div className='h-8'></div>
+    <div className='flex items-center justify-center mb-12'>
       
     <div className='w-[99%] lg:w-[80%] shadow-xl border-4 p-5 m-4 mb-20 border-t-8 border-blue-200 rounded-lg bg-blue-100'>
       <h1 className='text-xl text-center m-4 text-gray-400'>News Article</h1>

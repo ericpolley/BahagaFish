@@ -9,9 +9,10 @@ export default function About() {
                 <title>NEWSFORPIGS: About</title>
                 <meta name='description' content='News: Fake news for Real people! News for Pigs. This is who we are!' />
             </Helmet>
-    <div className='flex items-center justify-center m-2 mb-12'>
+            <div className='h-8'></div>
+    <div className='flex items-center justify-center mb-12'>
     <div className='w-[99%] lg:w-[80%] shadow-xl border-4 p-5 m-4 mb-20 border-t-8 border-blue-200 rounded-lg bg-blue-100'>
-      <h1 className='text-xl text-center m-4'>About</h1>
+      <h1 className='text-xl text-center m-4 mt-12'>About</h1>
       <div className='flex flex-col justify-center items-center'>
       <p className=' w-[90%]'>
       Welcome to News for Pigs! We are a group of mischievous writers who have come together to bring fake news to the masses. Our mission is simple: to provide a humorous and entertaining escape from the often-dreary world of real news.
