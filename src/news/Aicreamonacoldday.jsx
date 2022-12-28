@@ -10,6 +10,17 @@ export default function Aicecreamonacoldday() {
     <Helmet>
                 <title>BAHAGAFISH: Story</title>
                 <meta name='description' content='News: Northern USA bans ice cream on account of the recent cold weather - Read more about it here' />
+                <meta property="og:type" content="Blog" />
+    <meta property="og:image" content="https://cdn.pixabay.com/photo/2017/08/03/14/38/ice-cream-2576622_960_720.jpg" />
+    <meta property="og:title" content="News: Northern USA bans ice cream on account of the recent cold weather - Read more about it here - BAHAGAFISH NEWS" />
+    <meta
+      property="og:description"
+      content="BAHAGAFISH NEWS - Your one stop shop for fake news"
+    />
+    <meta
+      property="og:url"
+      content="https://news.ericpolley.com/#/icecreamonacoldday"
+    />
             </Helmet>
             <div className='h-8'></div>
     <div className='flex items-center justify-center mb-12'>

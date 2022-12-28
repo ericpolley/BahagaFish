@@ -10,6 +10,17 @@ export default function Apaperplanes() {
     <Helmet>
                 <title>BAHAGAFISH: Story</title>
                 <meta name='description' content='News: Paper air planes are replacing Email?!?! - Read more about it here' />
+                <meta property="og:type" content="Blog" />
+    <meta property="og:image" content="https://cdn.pixabay.com/photo/2020/03/09/18/10/aeroplane-4916661_960_720.jpg" />
+    <meta property="og:title" content="News: Paper air planes are replacing Email?!?! - Read more about it here - BAHAGAFISH NEWS" />
+    <meta
+      property="og:description"
+      content="BAHAGAFISH NEWS - Your one stop shop for fake news"
+    />
+    <meta
+      property="og:url"
+      content="https://news.ericpolley.com/#/paperplanes"
+    />
             </Helmet>
             <div className='h-8'></div>
     <div className='flex items-center justify-center mb-12'>

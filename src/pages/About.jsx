@@ -10,6 +10,19 @@ export default function About() {
     <Helmet>
                 <title>BAHAGAFISH: About</title>
                 <meta name='description' content='News: Fake news for Real people! BAHAGAFISH is who we are!' />
+                <title>BAHAGAFISH: NEWS</title>
+                <meta name='description' content='News: Fake news for Real people!' />
+                <meta property="og:type" content="News" />
+    <meta property="og:image" content="https://cdn.pixabay.com/photo/2019/05/14/11/26/fish-4202148_960_720.png" />
+    <meta property="og:title" content="About BAHAGAFISH NEWS" />
+    <meta
+      property="og:description"
+      content="About: BAHAGAFISH NEWS - Your one stop shop for fake news"
+    />
+    <meta
+      property="og:url"
+      content="https://news.ericpolley.com/#/about"
+    />
             </Helmet>
             <div className='h-8'></div>
     <div className='flex items-center justify-center mb-12'>

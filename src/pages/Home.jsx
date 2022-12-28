@@ -19,7 +19,7 @@ export default function Home() {
     />
     <meta
       property="og:url"
-      content="https://cdn.pixabay.com/photo/2019/05/14/11/26/fish-4202148_960_720.png"
+      content="https://news.ericpolley.com"
     />
             </Helmet>
             <div className='h-8'></div>
