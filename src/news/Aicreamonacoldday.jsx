@@ -30,6 +30,7 @@ export default function Aicecreamonacoldday() {
 {/* TEXT SECTION 1 */}
 
 <p className='w-full lg:w-[80%] text-center border-t-4 border-blue-200 mb-5'>
+  <br />
 As the winter chill sweeps through the northern United States, ice cream lovers are in for a major disappointment. In a shocking move, several states have announced a ban on the sale of ice cream due to the recent cold weather.
 <br /></p> 
 

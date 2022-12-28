@@ -30,6 +30,7 @@ export default function Astrangerwednesday() {
 {/* TEXT SECTION 1 */}
 
 <p className='w-full lg:w-[80%] text-center border-t-4 border-blue-200 mb-5'>
+  <br />
 As a huge fan of both "Stranger Things" and "Wednesday," I couldn't be more excited about the news that the cast of "Wednesday" will be taking over for the next season of "Stranger Things." This is a recasting move that nobody saw coming, but one that is sure to shake things up in a big way.
 <br /><br />
 Jenna Ortega, who rose to fame as Harley Diaz on the hit Disney Channel series "Stuck in the Middle," will be stepping into the role of Eleven. With her quirky personality and undeniable talent, Ortega is sure to bring a fresh and exciting energy to the character.
