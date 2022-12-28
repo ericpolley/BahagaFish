@@ -9,7 +9,7 @@ export default function Astrangerwednesday() {
     <>
     <Helmet>
                 <title>BAHAGAFISH: Story</title>
-                <meta name='description' content='News: Northern USA bans ice cream on account of the recent cold weather - Read more about it here' />
+                <meta name='description' content='News: Stranger Things has been recast with the cast of Wednesday - Read more about it here' />
             </Helmet>
             <div className='h-8'></div>
     <div className='flex items-center justify-center mb-12'>
