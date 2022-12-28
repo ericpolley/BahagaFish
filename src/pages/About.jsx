@@ -1,7 +1,9 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
+import { useNavigate } from 'react-router'
 
 export default function About() {
+  const navigate = useNavigate();
   return (
 
     <>
@@ -30,7 +32,7 @@ So why wait? Dive in and explore the world of Bahagafish today. And don't forget
 
       <div className=" w-full border-b-8 border-blue-200 mt-8"></div>
       <div className="bg-blue-300 border-8 border-blue-200 m-1 p-5 rounded-full w-full lg:w-[50vw] flex items-center justify-center">
-      <img src="https://cdn.pixabay.com/photo/2019/05/14/11/26/fish-4202148_960_720.png" alt="pigs" className='w-[30vw]' />
+      <img onClick={()=> navigate('/News')} src="https://cdn.pixabay.com/photo/2019/05/14/11/26/fish-4202148_960_720.png" alt="pigs" className='w-[30vw] cursor-pointer' />
       </div>
     
       </div>

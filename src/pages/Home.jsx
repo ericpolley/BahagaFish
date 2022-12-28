@@ -1,7 +1,9 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
+import { useNavigate } from 'react-router'
 
 export default function Home() {
+  const navigate = useNavigate()
   return (
 
     <>
@@ -11,11 +13,12 @@ export default function Home() {
             </Helmet>
             <div className='h-8'></div>
     <div className='flex items-center justify-center mb-12'>
-    <div className='w-[99%] lg:w-[80%] bg-blue-100 shadow-xl border-4 p-5 m-4 mb-20 border-t-8 border-blue-200 rounded-lg flex flex-col justify-center items-center'>
-      <h1 className='w-full text-xl text-center mt-12 pb-2 border-b-8 border-blue-200'> Welcome </h1>
+    <div className='w-[99%] lg:w-[80%] bg-blue-100 shadow-xl border-4 p-5 m-4 mb-20 border-t-8 border-blue-200 rounded-lg  
+    flex flex-col justify-center items-center'>
+
       <div className='flex flex-row flex-wrap items-center justify-center'>
-     <div className='w-full lg:w-[45%] text-lg text-center flex justify-center items-center mb-4 mt-4'>
-           <p className='bg-sky-200 p-8 border-4 border-blue-200 rounded-xl text-sm'>BAHAGAFISH <br />
+     <div className='w-full lg:w-[90%] text-lg text-center flex flex-col justify-center items-center mb-4 mt-4'>
+           <p className='text-xl text-center m-4 mt-12'>BAHAGAFISH <br /></p><p className=' text-base'>
            <span className=' text-xs text-gray-500'>  (Bah-ha-guh-fish) </span>
            <br />
           <span className=' text-xs text-gray-400'>
@@ -40,8 +43,8 @@ So why wait? Dive in and explore the world of Bahagafish today. And don't forget
       
       <div className='flex flex-col items-center justify-center lg:ml-4 p-0'>
       
-      <div className="bg-blue-300 border-8 border-blue-200 m-1 p-5 rounded-full w-full lg:w-[30vw]">
-      <img src="https://cdn.pixabay.com/photo/2019/05/14/11/26/fish-4202148_960_720.png" alt="fish" className='' />
+      <div className="bg-blue-300 border-8 border-blue-200 m-1 p-5 rounded-full w-full lg:w-[50%]">
+      <img onClick={()=>navigate('/News')} src="https://cdn.pixabay.com/photo/2019/05/14/11/26/fish-4202148_960_720.png" alt="fish" className='cursor-pointer' />
       </div>
       </div>
     </div>
