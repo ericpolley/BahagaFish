@@ -10,7 +10,7 @@ export default function Home() {
     <Helmet>
                 <title>BAHAGAFISH</title>
                 <meta name='description' content='News: Fake news for Real people!' />
-                <meta property="og:type" content="Blog" />
+                <meta property="og:type" content="Index" />
     <meta property="og:image" content="https://cdn.pixabay.com/photo/2019/05/14/11/26/fish-4202148_960_720.png" />
     <meta property="og:title" content="BAHAGAFISH" />
     <meta
