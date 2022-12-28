@@ -11,6 +11,7 @@ import Header from './components/Header';
 import Apaperplanes from './news/Apaperplanes';
 import Footer from './components/Footer';
 import Aicecreamonacoldday from './news/Aicreamonacoldday';
+import Astrangerwednesday from './news/Astrangerwednesday';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/signin" element={<SignIn />} />
         <Route path="/paperplanes" element={<Apaperplanes />} />
         <Route path="/icecreamonacoldday" element={<Aicecreamonacoldday />} />
+        <Route path="/strangerwednesday" element={<Astrangerwednesday />} />
       </Routes>
       <Footer />
       </HashRouter>

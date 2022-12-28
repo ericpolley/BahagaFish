@@ -2,6 +2,7 @@ import React from 'react'
 import CardApaperplanes from '../newsCards/CardApaperplanes'
 import { Helmet } from 'react-helmet'
 import CardAicecreamonacoldday from '../newsCards/CardAicecreamonacoldday'
+import CardAstrangerwednesday from '../newsCards/CardAstrangewednesday'
 
 export default function News() {
   return (
@@ -17,9 +18,10 @@ export default function News() {
       <h1 className='text-xl text-center m-4 mt-12'>News</h1>
       <div className='flex flex-row flex-wrap w-full justify-center items-center'>
 
-
+      <CardAstrangerwednesday />
       <CardApaperplanes />
       <CardAicecreamonacoldday />
+      
 
 
       </div>
