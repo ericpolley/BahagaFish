@@ -35,8 +35,8 @@ As the winter chill sweeps through the northern United States, ice cream lovers 
 
 <p className='text-blue-100 text-xs'>I found this at: ericpolley.com</p>
 {/* Image in the middle */}
-  <img src="https://cdn.pixabay.com/photo/2017/08/03/14/38/ice-cream-2576622_960_720.jpg" className='
-  w-[80vw] h-60 border-4 rounded-xl border-blue-300 object-cover' alt="img" />
+  <img src="https://cdn.pixabay.com/photo/2021/01/18/12/49/ice-cream-5928048_960_720.jpg" className='
+  w-[80vw] h-60 border-4 rounded-xl border-blue-300 object-cover object-center' alt="img" />
  
   <p className='w-[80%] m-5 mt-10 mb-5'>
 
