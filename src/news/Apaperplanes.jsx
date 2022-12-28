@@ -42,7 +42,7 @@ In the age of emails and instant messaging, it's easy to get caught up in the co
 <p className='text-blue-100 text-xs'>I found this at: ericpolley.com</p>
 {/* Image in the middle */}
   <img src="https://cdn.pixabay.com/photo/2020/03/09/18/10/aeroplane-4916661_960_720.jpg" className='
-  w-[80vw] h-60 border-4 rounded-xl border-blue-300 object-cover' alt="planes" />
+  w-[80vw] h-60 border-4 rounded-xl border-blue-300 object-cover' alt="img" />
  
   <p className='w-[80%] m-5 mt-10 mb-5'>
 
