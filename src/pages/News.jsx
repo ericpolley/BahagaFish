@@ -8,8 +8,8 @@ export default function News() {
 
     <>
     <Helmet>
-                <title>NEWSBYPIGS: NEWS</title>
-                <meta name='description' content='News: Fake news for Real people! News by Pigs.' />
+                <title>BAHAGAFISH: NEWS</title>
+                <meta name='description' content='News: Fake news for Real people!' />
             </Helmet>
             <div className='h-8'></div>
     <div className='flex items-center justify-center mb-12'>

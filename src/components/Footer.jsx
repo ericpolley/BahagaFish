@@ -12,7 +12,9 @@ export default function Footer() {
 
  </div>
 <div className='flex flex-row justify-center items-center w-full sm:w-[90%] md:w-[90%] text-sm'> 
-<img src="https://cdn.pixabay.com/photo/2021/01/09/22/55/pig-5903673_960_720.png" onClick={()=>navigate('/')} alt="pig" className='cursor-pointer h-10 p-1 bg-blue-100 md:m-3 border-blue-200 border-4 rounded-full' />
+<div className='bg-sky-300 border-blue-200 border-4 rounded-full'>
+<img src="https://cdn.pixabay.com/photo/2019/05/14/11/26/fish-4202148_960_720.png" onClick={()=>navigate('/')} alt="pig" className='cursor-pointer h-14 w-16 p-1 md:m-3 ' />
+</div>
 <p className=''>copyright Eric Polley 2022 <a className='mr-1  text-blue-500 hover:text-blue-400 active:text-blue-300' href="http://ericpolley.com"> ericpolley.com</a></p>
 
 </div>

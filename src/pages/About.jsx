@@ -6,8 +6,8 @@ export default function About() {
 
     <>
     <Helmet>
-                <title>NEWSBYPIGS: About</title>
-                <meta name='description' content='News: Fake news for Real people! News By Pigs. This is who we are!' />
+                <title>BAHAGAFISH: About</title>
+                <meta name='description' content='News: Fake news for Real people! BAHAGAFISH is who we are!' />
             </Helmet>
             <div className='h-8'></div>
     <div className='flex items-center justify-center mb-12'>
@@ -15,22 +15,23 @@ export default function About() {
       <h1 className='text-xl text-center m-4 mt-12'>About</h1>
       <div className='flex flex-col justify-center items-center'>
       <p className=' w-[90%]'>
-      Welcome to News by Pigs! We are a group of mischievous pigs.. I mean writers, who have come together to bring fake news to the masses. Our mission is simple: to provide a humorous and entertaining escape from the often-dreary world of real news.
-<br />
-We officially launched on January 2023, but our roots go back much further. As a group of animators and software developers with a love for satire and absurdity, we have always been drawn to the ridiculous and the outrageous. And in a time when fake news seems to be all too prevalent, we saw an opportunity to use our skills for good (or at least, for a good laugh).
+      Welcome to the wacky world of Bahagafish! We are a team of mischievous writers, animators, and software developers who have a knack for creating hilarious and absurd news stories. Whether it's a tale of ice cream being banned in the northern USA or paper airplanes taking over the world of email, we have a knack for bringing the weird and wonderful to the forefront of your attention.
 <br /><br />
-So what can you expect from News by Pigs? First and foremost, we are in the business of making people laugh. Whether it's a story about a giant hamster running for president or a report on the latest conspiracy theory, we strive to bring a bit of levity to an otherwise serious world.
-<br />
-But we also want to engage our readers in a deeper way. By poking fun at the often absurd nature of the news, we hope to encourage critical thinking and skepticism. We want our readers to question the stories they see, and to think for themselves rather than blindly accepting what is presented to them.
+Bahagafish was founded in December 2022 by the one and only Eric Polley, a man with a passion for all things absurd and a love of making people laugh. From the very beginning, our goal has been to bring a smile to your face and a spark of creativity to your day, all while keeping you informed on the latest and greatest (fictional) happenings from around the world.
 <br /><br />
-Of course, it's important to note that everything we publish is purely fictional. While we may draw inspiration from real events, our stories are purely for entertainment purposes and should not be taken seriously.
+But we're not just a one-man show! No for real. Like, for real real. At Bahagafish, we are proud to have a diverse and talented team of writers, animators, and software developers. Our team brings a wealth of experience and expertise to the table, and we are always striving to push the boundaries of what is possible with our content. From silly ice cream ban stories to thought-provoking pieces on the future of email, we have something for everyone.
 <br /><br />
-So if you're in need of a break from the daily grind, or just want to laugh at the absurdity of it all, we hope you'll join us at 'News by Pigs'. We promise to keep the fake news coming, and to do our part in bringing a little joy to your day.
+So, just how do we come up with all of these wild and wacky stories? It's a closely guarded secret, but we can give you a little sneak peek into our creative process. First, we start by brainstorming ideas – the zanier, the better. Then, we assign each idea to one of our skilled writers, who works their magic to turn it into a fully-fledged story. Once the writing is complete, our animators and software developers get to work bringing the story to life with colorful graphics and interactive elements. Finally, we polish everything up and release it to the world, ready to make you laugh and think.
+<br /><br />
+So why wait? Dive in and explore the world of Bahagafish today. And don't forget to share your favorite stories with your friends and family – we love to see our content being enjoyed by as many people as possible! We hope you enjoy your stay and come back for more hilarious news and entertainment.
+<br /><br />
       </p>
      
 
       <div className=" w-full border-b-8 border-blue-200 mt-8"></div>
-      <img src="https://cdn.pixabay.com/photo/2014/12/21/23/41/pig-575824_960_720.png" alt="pigs" className='w-[60%]' />
+      <div className="bg-blue-300 border-8 border-blue-200 m-1 p-5 rounded-full w-full lg:w-[50vw] flex items-center justify-center">
+      <img src="https://cdn.pixabay.com/photo/2019/05/14/11/26/fish-4202148_960_720.png" alt="pigs" className='w-[30vw]' />
+      </div>
     
       </div>
     </div>

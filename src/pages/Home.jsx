@@ -6,8 +6,8 @@ export default function Home() {
 
     <>
     <Helmet>
-                <title>NEWSBYPIGS</title>
-                <meta name='description' content='News: Fake news for Real people! News By Pigs.' />
+                <title>BAHAGAFISH</title>
+                <meta name='description' content='News: Fake news for Real people!' />
             </Helmet>
             <div className='h-8'></div>
     <div className='flex items-center justify-center mb-12'>
@@ -15,17 +15,25 @@ export default function Home() {
       <h1 className='w-full text-xl text-center mt-12 pb-2 border-b-8 border-blue-200'> Welcome </h1>
       <div className='flex flex-row flex-wrap items-center justify-center'>
      <div className='w-full lg:w-[45%] text-lg text-center flex justify-center items-center mb-4 mt-4'>
-           <p className='bg-sky-200 p-8 border-4 border-blue-200 rounded-xl text-sm'>News By Pigs! <br />
-      
-           Welcome to News By Pigs, the home of fake news written by pigs that is guaranteed to make you laugh!
+           <p className='bg-sky-200 p-8 border-4 border-blue-200 rounded-xl text-sm'>BAHAGAFISH <br />
+           <span className=' text-xs text-gray-500'>  (Bah-ha-guh-fish) </span>
+           <br />
+          <span className=' text-xs text-gray-400'>
+          [ EX: "What a load of Bahagafish" ]
+          </span>
+          <br /><br />
+           Welcome to Bahagafish, a one-stop destination for all the latest and greatest (fictional) news and stories from around the world. Our team of skilled writers and animators are dedicated to bringing you a unique blend of humor and absurdity, all while keeping you informed on the latest developments in the world of ice cream, paper airplanes, and beyond.        
+           <br /><br />
+Bahagafish was founded in December 2022 by a group of "friends" with a passion for writing and animation. From humble beginnings as a small blog, we have grown into a beloved source of entertainment and satire for readers around the globe. Our mission is to bring a smile to your face and a spark of creativity to your day, all while keeping you up-to-date on the weird and wonderful happenings of the world.
 <br /><br />
-If you're tired of the constant stream of depressing and serious news, then you've come to the right place. At News By Pigs, we specialize in creating ridiculous and absurd stories that are sure to bring a smile to your face. Whether it's a report on a giant hamster running for president or a conspiracy theory about aliens living among us, we've got you covered.
-<br />
-But we're not just in the business of making people laugh. We also believe in the power of satire and absurdity to encourage critical thinking and skepticism. In a world where fake news seems to be all too prevalent, we want to encourage our readers to question the stories they see and think for themselves.
+At Bahagafish, we are proud to have a diverse and talented team of writers, animators, and software developers. Our team brings a wealth of experience and expertise to the table, and we are always striving to push the boundaries of what is possible with our content. From silly ice cream ban stories to thought-provoking pieces on the future of email, we have something for everyone.
 <br /><br />
-So if you're in need of a break from the daily grind or just want to laugh at the absurdity of it all, we hope you'll join us at News By Pigs. We promise to keep the fake news coming and to do our part in bringing a little joy to your day.
-<br />
-Thanks for visiting, and don't forget to check back often for the latest and greatest from the world of fake news!
+At Bahagafish, you can expect to find all sorts of wild and wacky stories. Whether it's a heartwarming tale of a lost paper airplane being reunited with its owner, or a tongue-in-cheek analysis of the latest ice cream flavor trends, we have something for every reader. We also feature regular updates on the latest technological advancements, as well as satirical takes on current events and pop culture phenomena.
+<br /><br />
+So why wait? Dive in and explore the world of Bahagafish today. And don't forget to share your favorite stories with your friends and family – we love to see our content being enjoyed by as many people as possible!
+<br /><br />  
+
+
 <br />
       </p>
       </div>
@@ -33,7 +41,7 @@ Thanks for visiting, and don't forget to check back often for the latest and gre
       <div className='flex flex-col items-center justify-center lg:ml-4 p-0'>
       
       <div className="bg-blue-300 border-8 border-blue-200 m-1 p-5 rounded-full w-full lg:w-[30vw]">
-      <img src="https://cdn.pixabay.com/photo/2014/12/21/23/41/pig-575824_960_720.png" alt="pigs" className='' />
+      <img src="https://cdn.pixabay.com/photo/2019/05/14/11/26/fish-4202148_960_720.png" alt="fish" className='' />
       </div>
       </div>
     </div>

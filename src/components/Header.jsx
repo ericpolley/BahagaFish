@@ -14,9 +14,13 @@ export default function Header() {
     <div className='flex justify-center items-center shadow-xl border-2 bg-opacity-50 border-gray-300 bg-blue-100 fixed w-full h-auto m-0 p-0'>
             <div className='w-[90%] md:w-[77%] flex justify-between items-center'>
         
-        <div className='flex md:flex-row flex-col justify-center items-center w-full'> 
-        <img src="https://cdn.pixabay.com/photo/2021/01/09/22/55/pig-5903673_960_720.png" onClick={()=>navigate('/')} alt="pig" className='cursor-pointer h-16 p-1 bg-blue-100 md:m-1 border-blue-200 border-4 rounded-full' />
-        <p onClick={()=>navigate('/')} className='w-full hidden md:block font-semibold text-lg lg:text-xl lg:ml-12 md:ml-4 text-blue-500 cursor-pointer hover:text-blue-400 active:text-blue-300'>News by Pigs</p>
+        <div className='flex md:flex-row flex-col items-center w-full'> 
+        <div className=' border-blue-200 border-4 rounded-full bg-sky-300 w-28 flex justify-center items-center'>
+            <img src="https://cdn.pixabay.com/photo/2019/05/14/11/26/fish-4202148_960_720.png" 
+            onClick={()=>navigate('/')} alt="fish" className='cursor-pointer h-20 w-24 p-1  md:m-1' />
+            </div>
+        <p onClick={()=>navigate('/')} className='hidden md:block font-semibold text-lg lg:text-xl lg:ml-12 md:ml-8 
+        text-blue-500 cursor-pointer hover:text-blue-400 active:text-blue-300'>BAHAGAFISH</p>
          </div>
         <div className='flex justify-between w-full sm:w-[90%] md:w-[70%] lg:w-[50%] ml-6 lg:ml-12'> 
             <p onClick={()=>navigate('/')} className={`text-slate-400 m-3 cursor-pointer ${pathMatchRoute("/") && "text-black border-b-2 border-blue-400"}`}>Home</p>
