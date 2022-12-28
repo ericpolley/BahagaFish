@@ -9,7 +9,8 @@ export default function Home() {
     <>
     <Helmet>
                 <title>BAHAGAFISH</title>
-                <meta name='description' content='News: Fake news for Real people!' />
+                <link rel="canonical" href="/" />
+                <meta name='description' content='News: Fake news for Real people! - Your one stop shop for fake news' />
                 <meta property="og:type" content="Index" />
     <meta property="og:image" content="https://cdn.pixabay.com/photo/2019/05/14/11/26/fish-4202148_960_720.png" />
     <meta property="og:title" content="BAHAGAFISH" />
@@ -29,7 +30,7 @@ export default function Home() {
 
       <div className='flex flex-row flex-wrap items-center justify-center'>
      <div className='w-full lg:w-[90%] text-lg text-center flex flex-col justify-center items-center mb-4 mt-4'>
-           <p className='text-xl text-center m-4 mt-12'>BAHAGAFISH <br /></p><p className=' text-base'>
+           <h1 className='text-xl text-center m-4 mt-12'>BAHAGAFISH <br /></h1><p className=' text-base'>
            <span className=' text-xs text-gray-500'>  (Bah-ha-guh-fish) </span>
            <br />
           <span className=' text-xs text-gray-400'>

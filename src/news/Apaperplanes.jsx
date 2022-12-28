@@ -9,6 +9,7 @@ export default function Apaperplanes() {
     <>
     <Helmet>
                 <title>BAHAGAFISH: Story</title>
+                <link rel="canonical" href="/#/paperplanes" />
                 <meta name='description' content='News: Paper air planes are replacing Email?!?! - Read more about it here' />
                 <meta property="og:type" content="Blog" />
     <meta property="og:image" content="https://cdn.pixabay.com/photo/2020/03/09/18/10/aeroplane-4916661_960_720.jpg" />

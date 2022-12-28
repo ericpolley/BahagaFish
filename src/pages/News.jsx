@@ -10,13 +10,14 @@ export default function News() {
     <>
     <Helmet>
                 <title>BAHAGAFISH: NEWS</title>
-                <meta name='description' content='News: Fake news for Real people!' />
+                <link rel="canonical" href="/#/News" />
+                <meta name='description' content='BAHAGAFISH NEWS - Your one stop shop for fake news - Get the latest News from BahagaFish News' />
                 <meta property="og:type" content="News" />
     <meta property="og:image" content="https://cdn.pixabay.com/photo/2019/05/14/11/26/fish-4202148_960_720.png" />
     <meta property="og:title" content="BAHAGAFISH NEWS" />
     <meta
       property="og:description"
-      content="BAHAGAFISH NEWS - Your one stop shop for fake news"
+      content="BAHAGAFISH NEWS - Your one stop shop for fake news - Get the latest News from BahagaFish News"
     />
     <meta
       property="og:url"

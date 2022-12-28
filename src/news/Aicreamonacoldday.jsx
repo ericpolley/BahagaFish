@@ -9,6 +9,7 @@ export default function Aicecreamonacoldday() {
     <>
     <Helmet>
                 <title>BAHAGAFISH: Story</title>
+                <link rel="canonical" href="/#/icecreamonacoldday" />
                 <meta name='description' content='News: Northern USA bans ice cream on account of the recent cold weather - Read more about it here' />
                 <meta property="og:type" content="Blog" />
     <meta property="og:image" content="https://cdn.pixabay.com/photo/2017/08/03/14/38/ice-cream-2576622_960_720.jpg" />

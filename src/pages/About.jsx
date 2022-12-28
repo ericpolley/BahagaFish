@@ -9,6 +9,7 @@ export default function About() {
     <>
     <Helmet>
                 <title>BAHAGAFISH: About</title>
+                <link rel="canonical" href="/#/about" />
                 <meta name='description' content='News: Fake news for Real people! BAHAGAFISH is who we are!' />
                 <title>BAHAGAFISH: NEWS</title>
                 <meta name='description' content='News: Fake news for Real people!' />

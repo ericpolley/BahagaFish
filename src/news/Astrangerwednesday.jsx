@@ -9,6 +9,7 @@ export default function Astrangerwednesday() {
     <>
     <Helmet>
                 <title>BAHAGAFISH: Story</title>
+                <link rel="canonical" href="/#/strangerwednesday" />
                 <meta name='description' content='News: Stranger Things has been recast with the cast of Wednesday - Read more about it here' />
                 <meta property="og:type" content="Blog" />
     <meta property="og:image" content="https://cdn.pixabay.com/photo/2022/07/15/08/20/stranger-things-7322649_960_720.png" />
