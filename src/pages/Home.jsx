@@ -7,7 +7,7 @@ export default function Home() {
     <>
     <Helmet>
                 <title>NEWSFORPIGS</title>
-                <meta name='description' content='News: Fake news for Real people! News for Pigs.' />
+                <meta name='description' content='News: Fake news for Real people! News By Pigs.' />
             </Helmet>
             <div className='h-8'></div>
     <div className='flex items-center justify-center mb-12'>
@@ -15,15 +15,15 @@ export default function Home() {
       <h1 className='w-full text-xl text-center mt-12 pb-2 border-b-8 border-blue-200'> Welcome </h1>
       <div className='flex flex-row flex-wrap items-center justify-center'>
      <div className='w-full lg:w-[45%] text-lg text-center flex justify-center items-center mb-4 mt-4'>
-           <p className='bg-sky-200 p-8 border-4 border-blue-200 rounded-xl text-sm'>News for Pigs! <br />
+           <p className='bg-sky-200 p-8 border-4 border-blue-200 rounded-xl text-sm'>News By Pigs! <br />
       
-           Welcome to News for Pigs, the home of fake news that's guaranteed to make you laugh!
+           Welcome to News By Pigs, the home of fake news written by pigs that is guaranteed to make you laugh!
 <br /><br />
-If you're tired of the constant stream of depressing and serious news, then you've come to the right place. At News for Pigs, we specialize in creating ridiculous and absurd stories that are sure to bring a smile to your face. Whether it's a report on a giant hamster running for president or a conspiracy theory about aliens living among us, we've got you covered.
+If you're tired of the constant stream of depressing and serious news, then you've come to the right place. At News By Pigs, we specialize in creating ridiculous and absurd stories that are sure to bring a smile to your face. Whether it's a report on a giant hamster running for president or a conspiracy theory about aliens living among us, we've got you covered.
 <br />
 But we're not just in the business of making people laugh. We also believe in the power of satire and absurdity to encourage critical thinking and skepticism. In a world where fake news seems to be all too prevalent, we want to encourage our readers to question the stories they see and think for themselves.
 <br /><br />
-So if you're in need of a break from the daily grind or just want to laugh at the absurdity of it all, we hope you'll join us at News for Pigs. We promise to keep the fake news coming and to do our part in bringing a little joy to your day.
+So if you're in need of a break from the daily grind or just want to laugh at the absurdity of it all, we hope you'll join us at News By Pigs. We promise to keep the fake news coming and to do our part in bringing a little joy to your day.
 <br />
 Thanks for visiting, and don't forget to check back often for the latest and greatest from the world of fake news!
 <br />
