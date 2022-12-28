@@ -15,7 +15,7 @@ export default function Astrangerwednesday() {
     <meta property="og:title" content="News: Stranger Things has been recast with the cast of Wednesday - Read more about it here - BAHAGAFISH NEWS" />
     <meta
       property="og:description"
-      content="BAHAGAFISH NEWS - Your one stop shop for fake news"
+      content="Stranger Things has been recast with the cast of Wednesday - Read more about it here - BAHAGAFISH NEWS"
     />
     <meta
       property="og:url"

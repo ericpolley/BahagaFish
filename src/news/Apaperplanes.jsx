@@ -15,7 +15,7 @@ export default function Apaperplanes() {
     <meta property="og:title" content="News: Paper air planes are replacing Email?!?! - Read more about it here - BAHAGAFISH NEWS" />
     <meta
       property="og:description"
-      content="BAHAGAFISH NEWS - Your one stop shop for fake news"
+      content="Paper air planes are replacing Email?!?! - Read more about it here"
     />
     <meta
       property="og:url"
