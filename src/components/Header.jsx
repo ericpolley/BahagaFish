@@ -16,7 +16,7 @@ export default function Header() {
         
         <div className='flex md:flex-row flex-col justify-center items-center w-full'> 
         <img src="https://cdn.pixabay.com/photo/2021/01/09/22/55/pig-5903673_960_720.png" onClick={()=>navigate('/')} alt="pig" className='cursor-pointer h-16 p-1 bg-blue-100 md:m-1 border-blue-200 border-4 rounded-full' />
-        <p onClick={()=>navigate('/')} className='w-full hidden md:block font-semibold text-lg lg:text-xl lg:ml-12 md:ml-4 text-blue-500 cursor-pointer hover:text-blue-400 active:text-blue-300'>News written by Pigs</p>
+        <p onClick={()=>navigate('/')} className='w-full hidden md:block font-semibold text-lg lg:text-xl lg:ml-12 md:ml-4 text-blue-500 cursor-pointer hover:text-blue-400 active:text-blue-300'>News by Pigs</p>
          </div>
         <div className='flex justify-between w-full sm:w-[90%] md:w-[70%] lg:w-[50%] ml-6 lg:ml-12'> 
             <p onClick={()=>navigate('/')} className={`text-slate-400 m-3 cursor-pointer ${pathMatchRoute("/") && "text-black border-b-2 border-blue-400"}`}>Home</p>

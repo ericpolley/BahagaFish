@@ -6,7 +6,7 @@ export default function Home() {
 
     <>
     <Helmet>
-                <title>NEWSFORPIGS</title>
+                <title>NEWSBYPIGS</title>
                 <meta name='description' content='News: Fake news for Real people! News By Pigs.' />
             </Helmet>
             <div className='h-8'></div>

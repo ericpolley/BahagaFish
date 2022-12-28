@@ -8,7 +8,7 @@ export default function Aicecreamonacoldday() {
   return (
     <>
     <Helmet>
-                <title>NEWSFORPIGS: Story</title>
+                <title>NEWSBYPIGS: Story</title>
                 <meta name='description' content='News: Northern USA bans ice cream on account of the recent cold weather - Read more about it here' />
             </Helmet>
             <div className='h-8'></div>
