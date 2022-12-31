@@ -4,11 +4,20 @@ import { Helmet } from 'react-helmet'
 import CardAicecreamonacoldday from '../newsCards/CardAicecreamonacoldday'
 import CardAstrangerwednesday from '../newsCards/CardAstrangewednesday'
 import CardAdrivethrupests from '../newsCards/CardAdrivethrupests'
+import { GTM } from 'react-gtm-module';
 
 export default function News() {
+  
   return (
-
+<GTM
+  gtm={{
+    id: 'G-DWWENY0XKT'
+  }}
+>
     <>
+    
+      
+      
     <Helmet>
                 <title>BAHAGAFISH: NEWS</title>
                 <link rel="canonical" href="/#/News" />
@@ -24,7 +33,10 @@ export default function News() {
       property="og:url"
       content="https://news.ericpolley.com/#/News"
     />
+   
+
             </Helmet>
+         
             <div className='h-8'></div>
     <div className='flex items-center justify-center mb-12'>
     <div className='w-[99%] lg:w-[80%] shadow-xl border-4 p-5 m-4 mb-20 border-t-8 border-blue-200 rounded-lg bg-blue-100'>
@@ -41,5 +53,6 @@ export default function News() {
     </div>
     </div>
     </>
+    </GTM>
   )
 }
