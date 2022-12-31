@@ -23,8 +23,8 @@ export default function Astrangerwednesday() {
       content="https://news.ericpolley.com/#/strangerwednesday"
     />
             </Helmet>
-            <div className='h-8'></div>
-    <div className='flex items-center justify-center mb-12'>
+            
+    <div className='flex items-center justify-center mb-12 mt-28'>
       
     <div className='w-[99%] lg:w-[80%] shadow-xl border-4 p-5 m-4 mb-20 border-t-8 border-blue-200 rounded-lg bg-blue-100'>
       <h1 className='text-xl text-center m-4 text-gray-400'>News Article</h1>

@@ -23,8 +23,8 @@ export default function Home() {
       content="https://news.ericpolley.com"
     />
             </Helmet>
-            <div className='h-8'></div>
-    <div className='flex items-center justify-center mb-12'>
+        
+    <div className='flex items-center justify-center mb-12 mt-28'>
     <div className='w-[99%] lg:w-[80%] bg-blue-100 shadow-xl border-4 p-5 m-4 mb-20 border-t-8 border-blue-200 rounded-lg  
     flex flex-col justify-center items-center'>
 
