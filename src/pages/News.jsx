@@ -1,10 +1,9 @@
-import React, { useEffect } from 'react';
 import CardApaperplanes from '../newsCards/CardApaperplanes'
 import { Helmet } from 'react-helmet'
 import CardAicecreamonacoldday from '../newsCards/CardAicecreamonacoldday'
 import CardAstrangerwednesday from '../newsCards/CardAstrangewednesday'
 import CardAdrivethrupests from '../newsCards/CardAdrivethrupests'
-import { initialize } from 'react-ga';
+
 
 
 
@@ -14,10 +13,7 @@ import { initialize } from 'react-ga';
 
 export default function News() {
 
-  initialize('G-DWWENY0XKT');
-  useEffect(() => {
-    window.ga('send', 'pageview');
-  }, []);
+
   
   return (
 
