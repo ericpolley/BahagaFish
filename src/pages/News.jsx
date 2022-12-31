@@ -1,19 +1,26 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import CardApaperplanes from '../newsCards/CardApaperplanes'
 import { Helmet } from 'react-helmet'
 import CardAicecreamonacoldday from '../newsCards/CardAicecreamonacoldday'
 import CardAstrangerwednesday from '../newsCards/CardAstrangewednesday'
 import CardAdrivethrupests from '../newsCards/CardAdrivethrupests'
-import { GTM } from 'react-gtm-module';
+import { initialize } from 'react-ga';
+
+
+
+
+
+
 
 export default function News() {
+
+  initialize('G-DWWENY0XKT');
+  useEffect(() => {
+    window.ga('send', 'pageview');
+  }, []);
   
   return (
-<GTM
-  gtm={{
-    id: 'G-DWWENY0XKT'
-  }}
->
+
     <>
     
       
@@ -53,6 +60,6 @@ export default function News() {
     </div>
     </div>
     </>
-    </GTM>
+    
   )
 }
