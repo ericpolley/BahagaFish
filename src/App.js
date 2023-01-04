@@ -13,6 +13,7 @@ import Footer from './components/Footer';
 import Aicecreamonacoldday from './news/Aicreamonacoldday';
 import Astrangerwednesday from './news/Astrangerwednesday';
 import Adrivethrupests from './news/Adrivethrupests';
+import Ay2k from './news/Ay2k';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/icecreamonacoldday" element={<Aicecreamonacoldday />} />
         <Route path="/strangerwednesday" element={<Astrangerwednesday />} />
         <Route path="/drivethrupests" element={<Adrivethrupests />} />
+        <Route path="/y2k" element={<Ay2k />} />
       </Routes>
       <Footer />
       </HashRouter>
