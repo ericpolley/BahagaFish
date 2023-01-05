@@ -14,6 +14,7 @@ import Aicecreamonacoldday from './news/Aicreamonacoldday';
 import Astrangerwednesday from './news/Astrangerwednesday';
 import Adrivethrupests from './news/Adrivethrupests';
 import Ay2k from './news/Ay2k';
+import Asmores from './news/Asmores';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/strangerwednesday" element={<Astrangerwednesday />} />
         <Route path="/drivethrupests" element={<Adrivethrupests />} />
         <Route path="/y2k" element={<Ay2k />} />
+        <Route path="/smores" element={<Asmores />} />
       </Routes>
       <Footer />
       </HashRouter>
